@@ -26,20 +26,20 @@ const CreateCard = ({onCreate}) => {
                         type="text"
                         value={name}
                         onChange={(e) => setName(e.target.value)}
-                        className="h-[20%] w-full rounded-lg bg-green-500 pl-2 font-mono font-bold text-gray-500"
+                        className="h-[20%] w-full rounded-lg bg-green-500 pl-2 font-mono font-bold placeholder-white text-white"
                         placeholder="Title"
                     />
                     <textarea
                         type="text"
                         value={description}
                         onChange={(e) => setDescription(e.target.value)}
-                        className="h-[80%] w-full rounded-lg bg-green-400 pl-2 text-start font-mono text-gray-500"
-                        placeholder="What's in your mind?sfdsdf"
+                        className="h-[80%] w-full rounded-lg bg-green-400 pl-2 text-start font-mono font-bold placeholder-white text-white"
+                        placeholder="What's in your mind?"
                     ></textarea>
                 </div>
                 <button
                     type="submit"
-                    className="m-3 mx-auto flex h-[15%] w-1/2 justify-center rounded-lg bg-green-500 p-1 font-bold text-black"
+                    className="m-3 mx-auto flex h-[15%] w-1/2 justify-center rounded-lg bg-green-500 p-1 text-white font-mono font-bold"
                 >
                     Create
                 </button>

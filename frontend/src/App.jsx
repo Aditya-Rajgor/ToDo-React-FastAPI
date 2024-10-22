@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import {useState, useEffect} from "react";
 import {
     BrowserRouter as Router,
     Route,
@@ -51,7 +51,7 @@ const App = () => {
                     path="/"
                     element={
                         // console.log("token found!!")
-                        token && !tokenExpired ? (
+                        token && tokenExpired ? (
                             <Navigate to="/todo" />
                         ) : (
                             <AuthComponent

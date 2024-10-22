@@ -19,7 +19,7 @@ const LogoutButton = ({onLogout}) => {
         <div className="text-center mt-10">
             <button
                 onClick={handleLogout}
-                className="bg-purple-500 text-4xl text-white px-8 py-4 rounded-lg"
+                className="bg-purple-500 text-2xl font-mono text-white px-8 py-4 rounded-lg"
             >
                 Logout
             </button>

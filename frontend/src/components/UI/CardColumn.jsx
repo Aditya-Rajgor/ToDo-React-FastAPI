@@ -18,7 +18,7 @@ export const CardColumn = ({
             <CreateCard onCreate={onCreateCard} />
             <div className="parent-col max-h-fit rounded-lg bg-blue-300">
                 <div className="m-3 flex justify-center to-white font-mono text-xl font-bold">
-                    Soon
+                    Working
                 </div>
                 {inProgressTasks.map((task, index) => (
                     <Card
