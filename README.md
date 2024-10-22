@@ -40,7 +40,16 @@ This is the open source repository for the a to-do web application, React fronte
     pip install -r requirements.txt
     ```
 
-4. Run the FastAPI server:
+4. Create a `.env` file and add the following environment variables:
+
+    ```plaintext
+    MONGO_DB_USERNAME="xxx"
+    MONGO_DB_PASSWORD="xxx"
+    MONGO_DB_CLUSTER = "xxx"
+    JWT_SECRET_KEY = "xxx"
+    ```
+
+5. Run the FastAPI server:
     ```bash
     uvicorn main:app --reload
     ```
