@@ -2,9 +2,10 @@
 
 This is the open source repository for the a to-do web application, React frontend and FastAPI backend
 
-# Video Demo
+## Video Demo
+https://github.com/user-attachments/assets/61e08355-0947-47ed-8c86-f09e98cbe51b
 
-# Project Structure
+## Project Structure
 
 ## FastAPI in backend handles all CRUD operations including Authentication with Jason Web Tokens.
 
